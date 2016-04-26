@@ -10,4 +10,5 @@ return array(
     'Http\\' => array($vendorDir . '/patricklouys/http/src'),
     'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Example\\' => array($baseDir . '/src'),
+    'Auryn\\' => array($vendorDir . '/rdlowrey/auryn/lib'),
 );
