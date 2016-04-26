@@ -40,4 +40,7 @@ $injector->delegate('Twig_Environment', function() use ($injector) {
 
 $injector->alias('Example\Template\FrontendRenderer', 'Example\Template\FrontendTwigRenderer');
 
+$injector->alias('Example\Menu\MenuReader', 'Example\Menu\ArrayMenuReader');
+$injector->share('Example\Menu\ArrayMenuReader');
+
 return $injector;
