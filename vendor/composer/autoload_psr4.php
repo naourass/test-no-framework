@@ -8,5 +8,6 @@ $baseDir = dirname($vendorDir);
 return array(
     'Whoops\\' => array($vendorDir . '/filp/whoops/src/Whoops'),
     'Http\\' => array($vendorDir . '/patricklouys/http/src'),
+    'FastRoute\\' => array($vendorDir . '/nikic/fast-route/src'),
     'Example\\' => array($baseDir . '/src'),
 );
