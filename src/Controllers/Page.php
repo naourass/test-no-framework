@@ -4,7 +4,7 @@ namespace Example\Controllers;
 
 use Example\Page\InvalidPageException;
 use Http\Response;
-use Example\Template\Renderer;
+use Example\Template\FrontendRenderer;
 use Example\Page\PageReader;
 
 
@@ -16,7 +16,7 @@ class Page
 
     public function __construct(
         Response $response,
-        Renderer $renderer,
+        FrontendRenderer $renderer,
         PageReader $pageReader
     ) {
         $this->response = $response;
